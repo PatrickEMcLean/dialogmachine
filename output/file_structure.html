@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>file_structure</title>
+    <style>
+        body {
+            display: flex;
+
+            min-height: 100vh;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            background-color: #ffffe6; /* light blue grey */
+            font-family: Arial, sans-serif;
+        }
+        .content {
+
+            width: 84ch;
+            padding: 1em;
+            padding-top: 2em;
+        }
+
+        .footer {
+
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>file_structure</h1>
+<h2>Description</h2>
+<p><em>Patrick is happy to explain. He's please with himself, even though he just got GPT-4 to do most of the work.</em></p>
+<h2>dialog</h2>
+<p>PATRICK: The dialog.md file isn't structured. It's just Markdown, but if you use the sections in the same way every time. It works. </p>
+<p>The trick (if you can call it a trick) is the links -- so do this</p>
+<p><code>[dialog or player choice](Heading.html)</code></p>
+<p>Then, if you have this in the dialog.md file. </p>
+<p>```</p>
+<h1>Heading</h1>
+<p>yada yada yada, stuff goes here</p>
+<p>```</p>
+<p>It will render the content in that section into a page called 'headling.html' and your link will be good. </p>
+<p>But you can't have any empty spaces in the heading description. </p>
+<p>So "File Structure" won't work, but "File_Structure" will. </p>
+<h1>choices:</h1>
+<p><a href="https://meh.com/">Meh.</a></p>
+<p><a href="what's_next.html">Love it, what's next?</a></p>
+<p><a href="why.html">Why did you do this?</a></p>
+    </div>
+
+    <div class="footer">Dialog Machine v 0.1</div>
+</body>
+</html>
