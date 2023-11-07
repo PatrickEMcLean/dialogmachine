@@ -113,7 +113,7 @@ Patrick: Well,
 
 You can't search across a directory of word docs. Or do find and replace across them. It's also not easy to chunk up word docs and feed them to an LLM for Document Assisted Retrieval. but if we had ALL of the documents in flat files we could do all of that and more. 
 
-And we could probably parse it into OEI so some poor bastard doesn't waste their life retyping a smell writer's word doc. 
+And we could probably parse it into a game's narrative system so some poor bastard doesn't waste their life retyping a smelly writer's word doc. 
 
 ## Choices:
 
